@@ -67,16 +67,16 @@
     "async": "^2.0.1",
     "error-tojson": "0.0.1",
     "es6-promise": "^4.0.5",
-    "promise": "7.1.1",
     "extend": "^3.0.0",
     "inherits": "^2.0.3",
-    "kurento-client-core": "^6.0.0",
-    "kurento-client-elements": "^6.0.0",
-    "kurento-client-filters": "^6.0.0",
-    "kurento-jsonrpc": "JoseGoncalves/kurento-jsonrpc-js",
+    "kurento-client-core": "github:Kurento/kurento-client-core-js",
+    "kurento-client-elements": "github:Kurento/kurento-client-elements-js",
+    "kurento-client-filters": "github:Kurento/kurento-client-filters-js",
+    "kurento-jsonrpc": "github:JoseGoncalves/kurento-jsonrpc-js",
+    "minimist": "^1.2.0",
+    "promise": "7.1.1",
     "promisecallback": "0.0.4",
-    "reconnect-ws": "JoseGoncalves/reconnect-ws",
-    "minimist": "^1.2.0"
+    "reconnect-ws": "github:JoseGoncalves/reconnect-ws"
   },
   "devDependencies": {
     "bower": "^1.0.0",
