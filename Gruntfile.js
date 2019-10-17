@@ -52,7 +52,10 @@ module.exports = function (grunt) {
           'node_modules/kurento-client-filters/lib/**/*.js',
           'test/*.js'
         ],
-        dest: 'doc/jsdoc'
+        dest: "doc/jsdoc",
+        options: {
+          configure: ".jsdoc.conf.js"
+        }
       }
     },
 
@@ -235,7 +238,6 @@ module.exports = function (grunt) {
   // Load plugins
   grunt.loadNpmTasks('grunt-browserify');
   grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-jscoverage');
   grunt.loadNpmTasks('grunt-jsdoc');
   grunt.loadNpmTasks('grunt-npm2bower-sync');
